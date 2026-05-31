@@ -23,6 +23,9 @@ public class StandloneTest {
 	public static void main(String[] args) throws InterruptedException {
 		String productName = "ZARA COAT 3";
 		// TODO Auto-generated method stub
+		//new comment added for the new code
+		
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/client");
